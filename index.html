@@ -39,7 +39,16 @@
       </div>
 
   <div class="header-img">
-    <img src="./assets/image-hero-mobile.webp" alt="">
+
+    <picture>
+
+      <source media="(min-width:465px)" srcset="./assets/image-hero-desktop.webp">
+              <source media="(min-width:768px)" srcset="./assets/image-hero-desktop@2x.webp">
+      <img src="./assets/image-hero-mobile.webp" alt="Flowers" style="width:auto;">
+    </picture>
+
+
+    <!-- <img src="./assets/image-hero-mobile.webp" alt=""> -->
 
   </div>
   </header>
