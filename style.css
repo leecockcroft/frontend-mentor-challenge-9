@@ -219,6 +219,8 @@ header{
 .main-wrapper{
   display:flex;
   flex-wrap:wrap;
+  justify-content: space-between;
+
 }
 
 .main-wrapper div{
