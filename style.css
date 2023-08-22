@@ -262,8 +262,15 @@ padding-top:2.9rem;
   width: 45.7em;
 }
 
+.section-1 p {
+  width: 44.5rem;
+}
+
   header button {
     font-size:1.8rem;
+    width: 16.7rem;
+height: 6.3rem;
+border-radius: 3.15rem;
   }
   .header-img {
     position: relative;
@@ -288,6 +295,7 @@ padding-top:2.9rem;
 }
 .box p {
   font-size:1.8rem;
+  line-height:2.8rem;
   }
 
   .main-wrapper div {
