@@ -268,7 +268,7 @@ padding-top:2.9rem;
   .header-img {
     position: relative;
     top: -18rem;
-    left: 15rem;
+    left: 39rem;
   }
   .box {
     /* display:flex;
@@ -290,7 +290,9 @@ padding-top:2.9rem;
   }
 
   .main-wrapper div {
-    width:24.305555%;
+
+      width: 28.6rem;
+
   }
 
   footer button {
