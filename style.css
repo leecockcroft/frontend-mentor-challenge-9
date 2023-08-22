@@ -237,6 +237,8 @@ overflow:hidden;
 padding-left:165px;
       padding-right:165px;
   }
+
+
 nav {
 padding-top:2.9rem;
     padding-bottom: 178px;
@@ -256,15 +258,17 @@ padding-top:2.9rem;
   }
 
 
+  header{
 
+  }
 
   header button {
     font-size:1.8rem;
   }
   picture {
     position: relative;
-top: -7rem;
-left: 32rem;
+    top: -7rem;
+    left: 32rem;
   }
   .box {
     /* display:flex;
@@ -272,9 +276,17 @@ left: 32rem;
 
   }
 
-
-  .box h3,.box p {
-    /* width:80%; */
+.popular-courses h2{
+  font-size:3.2rem;
+  font-weight:800;
+  line-height:4rem;
+}
+.box h3{
+  font-size:2.4rem;
+  font-weight:800;
+}
+.box p {
+  font-size:1.8rem;
   }
 
   .main-wrapper div {
