@@ -234,6 +234,7 @@ header{
 overflow:hidden;
     margin:auto;
 padding-left:165px;
+      padding-right:165px;
   }
 
     nav button {
