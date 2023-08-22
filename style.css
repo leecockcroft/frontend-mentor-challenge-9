@@ -1,0 +1,195 @@
+
+
+:root{
+
+
+
+}
+
+html {
+    font-size:62.5%;
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+.wrapper{
+  max-width:375px;
+
+
+}
+
+img{
+  max-width:100%;
+}
+
+
+
+.container {
+padding:0 2rem;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+nav,footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3em 0;
+}
+
+nav button {
+  background: #13183f;
+  border-radius: 2rem;
+  color: #fff;
+
+  padding: 0.5rem 2rem;
+}
+
+header h1 {
+  font-size:4rem;
+}
+
+header p {
+  font-size:1.6rem;
+  line-height: 2.6rem;
+  padding: 2rem 0;
+}
+
+header button {
+
+  background: linear-gradient(to bottom,#ff6f48, #f02AA6);
+  padding: 1rem 3rem;
+  border-radius: 5rem;
+  color: #fff;
+  border:none;
+}
+
+.popular-courses{
+    background: linear-gradient(to bottom,#ff6f48, #f02AA6);
+
+    padding: 3rem;
+    border-radius: 2rem;
+color:#fff;
+    margin-bottom: 2rem;
+
+}
+.popular-courses h2{
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+}
+.box{
+  position:relative;
+      padding: 5rem 0;
+      margin-left: 2.8rem;
+box-shadow: 0px 2.5rem 5rem 0px rgba(6, 22, 141, 0.04);
+}
+
+.box h3 {
+  font-size:2rem;
+  line-height:2.52rem;
+
+}
+
+.box p {
+  font-size:1.6rem;
+  line-height:2.6rem;
+    padding: 1rem 0;
+    color:#83869a;
+}
+
+.animation:before{
+  content:"";
+
+  background-image:url('./assets/icon-animation.svg');
+
+  width:4rem;
+  height:4rem;
+  background-size:cover;
+  position:absolute;
+  top: 0;
+}
+
+
+
+
+.design:before{
+  content:"";
+
+  background-image:url('./assets/icon-design.svg');
+
+  width:4rem;
+  height:4rem;
+  background-size:cover;
+  position:absolute;
+  top: 0;
+}
+
+.photography:before{
+  content:"";
+
+  background-image:url('./assets/icon-photography.svg');
+
+  width:4rem;
+  height:4rem;
+  background-size:cover;
+  position:absolute;
+  top: 0;
+}
+
+.crypto:before{
+  content:"";
+
+  background-image:url('./assets/icon-crypto.svg');
+
+  width:4rem;
+  height:4rem;
+  background-size:cover;
+  position:absolute;
+  top: 0;
+}
+
+.business:before{
+  content:"";
+
+  background-image:url('./assets/icon-business.svg');
+
+  width:4rem;
+  height:4rem;
+  background-size:cover;
+  position:absolute;
+  top: 0;
+}
+
+.box a {
+  font-size:1.8rem;
+  line-height:2.8rem;
+  font-weight:700;
+  color:#f74780;
+  text-decoration: none;
+}
+
+.footer-container{
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+
+}
+footer{
+  background:#13183f;
+  display:flex;
+
+
+}
+
+footer button {
+  background: linear-gradient(to bottom,#4851ff, #f02aa6);
+  padding: 1rem;
+  color: #fff;
+  border-radius: 5rem;
+}
