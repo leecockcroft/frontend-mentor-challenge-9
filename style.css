@@ -236,11 +236,13 @@ overflow:hidden;
 padding-left:165px;
       padding-right:165px;
   }
-
+nav {
+padding-top:2.9rem;
+}
     nav button {
         width:16.7rem;
     height: 5.6rem;
-        padding:0
+        padding:0;
         border-radius:2.8rem;
         font-size:1.8rem;
         font-weight:700;
