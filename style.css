@@ -233,6 +233,7 @@ header{
   .container{
 overflow:hidden;
     margin:auto;
+      width:90%;
   }
 
   header h1{
