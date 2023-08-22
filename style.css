@@ -250,15 +250,10 @@ padding-top:2.9rem;
     }
     header h1{
     font-size:5.6rem;
+        font-weight:800;
   }
 
-  .section-1 {
-    width:31.73611111%;
-  }
 
-  .header-img{
-    width:22.013888%;
-  }
   header{
     align-items:center;
   }
