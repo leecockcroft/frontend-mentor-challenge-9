@@ -238,9 +238,13 @@ padding-left:165px;
   }
 
     nav button {
-        width: 167px;
-    height: 56px;
+        width:16.7rem;
+    height: 5.6rem;
         padding:0
+        border-radius:2.8rem;
+        font-size:1.8rem;
+        font-weight:700;
+        line-height:2.8rem;
     }
     header h1{
     font-size:5.6rem;
