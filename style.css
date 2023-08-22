@@ -258,9 +258,9 @@ padding-top:2.9rem;
   }
 
 
-  header{
-
-  }
+.section-1 {
+  width: 45.7em;
+}
 
   header button {
     font-size:1.8rem;
@@ -268,7 +268,8 @@ padding-top:2.9rem;
   .header-img {
     position: relative;
     top: -18rem;
-    left: 39rem;
+    left: 36rem;
+    flex:1;
   }
   .box {
     /* display:flex;
