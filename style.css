@@ -195,7 +195,7 @@ footer button {
   border-radius: 5rem;
 }
 
-@media (min-width:450px){
+@media (min-width:700px){
 
 
 /* .wrapper{
@@ -206,12 +206,12 @@ header{
   display:flex;
 }
 
-.section-1 {
+/* .section-1 {
   width:51.8299166%;
 }
 .header-img {
   flex:1;
-}
+} */
 
 .main-wrapper{
   display:flex;
@@ -225,7 +225,7 @@ header{
 
 }
 
-@media (min-width:768px){
+@media (min-width:900px){
 
 .wrapper{
       max-width:1440px;
@@ -234,8 +234,8 @@ header{
   .container{
 overflow:hidden;
     margin:auto;
-padding-left:165px;
-      padding-right:165px;
+padding-left:16.5rem;
+      padding-right:16.5rem;
   }
 
 
@@ -265,10 +265,10 @@ padding-top:2.9rem;
   header button {
     font-size:1.8rem;
   }
-  picture {
+  .header-img {
     position: relative;
-    top: -7rem;
-    left: 32rem;
+    top: -18rem;
+    left: 15rem;
   }
   .box {
     /* display:flex;
