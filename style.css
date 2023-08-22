@@ -206,6 +206,7 @@ footer button {
 
 header{
   display:flex;
+
 }
 
 /* .section-1 {
@@ -258,7 +259,9 @@ padding-top:2.9rem;
     font-size:5.6rem;
         font-weight:800;
   }
-
+header{
+        padding-bottom: 25rem;
+}
 
 .section-1 {
   width: 45.7em;
@@ -276,10 +279,10 @@ height: 6.3rem;
 border-radius: 3.15rem;
   }
   .header-img {
+
     position: relative;
     top: -18rem;
-    left: 36rem;
-    flex:1;
+    left: 40rem;
   }
   .box {
     /* display:flex;
