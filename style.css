@@ -196,6 +196,7 @@ footer button {
   padding: 1rem;
   color: #fff;
   border-radius: 5rem;
+
 }
 
 @media (min-width:700px){
@@ -323,6 +324,9 @@ border-radius: 3.15rem;
 
   footer button {
     padding:1rem 3rem;
+    font-size:1.8rem;
+    font-weight:700;
+    line-height:2.8rem;
   }
 
 
