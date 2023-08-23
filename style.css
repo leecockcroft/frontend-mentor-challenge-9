@@ -175,13 +175,17 @@ left: 2rem;
 }
 
 .box a {
-  font-size:1.8rem;
-  line-height:2.8rem;
-  font-weight:700;
-  color:#f74780;
-  text-decoration: none;
-  margin-top: 2.4rem;
-display: inline-block;
+  font-size: 1.8rem;
+      line-height: 2.8rem;
+      font-weight: 700;
+      color: #f74780;
+      text-decoration: none;
+      margin-top: 2.4rem;
+      display: inline-block;
+      padding: 0rem 3.2rem;
+      margin-top: auto;
+      position: relative;
+      top: 2rem;
 }
 
 .footer-container{
@@ -331,6 +335,9 @@ border-radius: 3.15rem;
       width:35rem;
       height: 32.3rem;
             margin: 0rem 2rem 8rem 0;
+            display: flex;
+flex-direction: column;
+justify-content: space-around;
 
   }
 
