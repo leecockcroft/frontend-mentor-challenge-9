@@ -119,8 +119,8 @@ background:#fff;
 
   background-size:cover;
   position:absolute;
-  top: 0;
-  left: 2rem;
+  top: -1rem;
+    left: 3rem;
 }
 
 
@@ -128,50 +128,54 @@ background:#fff;
 
 .design:before{
   content:"";
-left: 2rem;
+  top: -1rem;
+      left: 3rem;
   background-image:url('./assets/icon-design.svg');
 
   width: 5.6rem;
   height: 5.6rem;
   background-size:cover;
   position:absolute;
-  top: 0;
+
 }
 
 .photography:before{
   content:"";
-left: 2rem;
+
   background-image:url('./assets/icon-photography.svg');
 
   width: 5.6rem;
   height: 5.6rem;
   background-size:cover;
   position:absolute;
-  top: 0;
+  top: -1rem;
+      left: 3rem;
 }
 
 .crypto:before{
   content:"";
-left: 2rem;
+
   background-image:url('./assets/icon-crypto.svg');
 
   width: 5.6rem;
   height: 5.6rem;
   background-size:cover;
   position:absolute;
-  top: 0;
+  top: -1rem;
+      left: 3rem;
 }
 
 .business:before{
   content:"";
-left: 2rem;
+
   background-image:url('./assets/icon-business.svg');
 
   width: 5.6rem;
   height: 5.6rem;
   background-size:cover;
   position:absolute;
-  top: 0;
+  top: -1rem;
+      left: 3rem;
 }
 
 .box a {
