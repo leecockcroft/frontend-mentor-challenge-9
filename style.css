@@ -97,7 +97,7 @@ background:#fff;
 .box h3 {
   font-size:2rem;
   line-height:2.52rem;
-    padding: 3.2rem 0;
+    padding: 3.2rem ;
 
 }
 
@@ -106,6 +106,7 @@ background:#fff;
   line-height:2.6rem;
     padding: 1rem 0;
     color:#83869a;
+
 }
 
 .animation:before{
@@ -119,6 +120,7 @@ background:#fff;
   background-size:cover;
   position:absolute;
   top: 0;
+  left: 2rem;
 }
 
 
@@ -126,7 +128,7 @@ background:#fff;
 
 .design:before{
   content:"";
-
+left: 2rem;
   background-image:url('./assets/icon-design.svg');
 
   width: 5.6rem;
@@ -138,7 +140,7 @@ background:#fff;
 
 .photography:before{
   content:"";
-
+left: 2rem;
   background-image:url('./assets/icon-photography.svg');
 
   width: 5.6rem;
@@ -150,7 +152,7 @@ background:#fff;
 
 .crypto:before{
   content:"";
-
+left: 2rem;
   background-image:url('./assets/icon-crypto.svg');
 
   width: 5.6rem;
@@ -162,7 +164,7 @@ background:#fff;
 
 .business:before{
   content:"";
-
+left: 2rem;
   background-image:url('./assets/icon-business.svg');
 
   width: 5.6rem;
@@ -314,12 +316,13 @@ border-radius: 3.15rem;
 .box h3{
   font-size:2.4rem;
   font-weight:800;
+    padding: 3.2rem ;
 
 }
 .box p {
   font-size:1.8rem;
   line-height:2.8rem;
-  padding: 1rem 0 0rem 0;
+    padding: 0 3.2rem;
 
   }
 
