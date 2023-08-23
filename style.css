@@ -56,7 +56,8 @@ header h1 {
 header p {
   font-size:1.6rem;
   line-height: 2.6rem;
-  padding: 2rem 0;
+  padding: 2.9rem 0;
+}
 }
 
 header button {
@@ -319,6 +320,7 @@ border-radius: 3.15rem;
   .main-wrapper div {
 
       width:35rem;
+      height: 32.3rem;
             margin: 0rem 2rem 8rem 0;
 
   }
