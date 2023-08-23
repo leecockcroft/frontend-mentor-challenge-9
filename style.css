@@ -97,7 +97,7 @@ background:#fff;
 .box h3 {
   font-size:2rem;
   line-height:2.52rem;
-    padding: 3.2rem ;
+    /* padding: 3.2rem ; */
 
 }
 
@@ -120,7 +120,7 @@ background:#fff;
   background-size:cover;
   position:absolute;
   top: -1rem;
-    left: 3rem;
+
 }
 
 
@@ -129,7 +129,7 @@ background:#fff;
 .design:before{
   content:"";
   top: -1rem;
-      left: 3rem;
+
   background-image:url('./assets/icon-design.svg');
 
   width: 5.6rem;
@@ -149,7 +149,7 @@ background:#fff;
   background-size:cover;
   position:absolute;
   top: -1rem;
-      left: 3rem;
+
 }
 
 .crypto:before{
@@ -162,7 +162,6 @@ background:#fff;
   background-size:cover;
   position:absolute;
   top: -1rem;
-      left: 3rem;
 }
 
 .business:before{
@@ -175,7 +174,7 @@ background:#fff;
   background-size:cover;
   position:absolute;
   top: -1rem;
-      left: 3rem;
+
 }
 
 .box a {
@@ -219,6 +218,11 @@ footer button {
 @media (min-width:700px){
 
 
+
+.animation:before, .design:before, .business:before,.photography:before,.crypto:before{
+      left: 3rem;
+}
+
 /* .wrapper{
   max-width:768px;
 } */
@@ -251,7 +255,20 @@ header{
 
 }
 
+.main-wrapper div {
 
+    width:30rem;
+    height: 32.3rem;
+          margin: 0rem 2rem 8rem 0;
+
+
+}
+.main-wrapper div:not(.popular-courses){
+  display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+}
 }
 
 @media (min-width:900px){
@@ -334,16 +351,6 @@ border-radius: 3.15rem;
 
   }
 
-  .main-wrapper div {
-
-      width:35rem;
-      height: 32.3rem;
-            margin: 0rem 2rem 8rem 0;
-            display: flex;
-flex-direction: column;
-justify-content: space-around;
-
-  }
 
   footer button {
     padding:1rem 3rem;
@@ -368,6 +375,13 @@ height: 5.6rem;
 
 
   }
+  .main-wrapper div {
 
+      width:35rem;
+      height: 32.3rem;
+            margin: 0rem 2rem 8rem 0;
+
+
+  }
 
 }
