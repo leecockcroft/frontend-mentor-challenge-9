@@ -341,10 +341,11 @@ height: 5.6rem;
   }
 
   .header-img{
-    width: 94rem;
-  position: absolute;
-  right: -19rem;
-  top: -8rem;
+
+    width: 100rem;
+    position: absolute;
+    right: -29rem;
+    top: -9rem;
 
 
   }
