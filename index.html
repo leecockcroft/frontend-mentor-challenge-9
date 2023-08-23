@@ -1,128 +1,353 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-
-  <title>Frontend Mentor | Skilled e-learning landing page</title>
-</head>
-<body>
-  <div class="wrapper">
-      <div class="container">
 
 
-  <nav>
-    <div class="logo">
-
-
-    <img src="./assets/logo-dark.svg" alt="">
-      </div>
-
-    <button type="button" name="button">Get Started</button>
-  </nav>
-
-  <header>
-    <div class="section-1">
-
-
-    <h1>Maximize skill, minimize budget</h1>
-
-    <p>Our modern courses across a range of in-demand skills will give you the
-    knowledge you need to live the life you want.</p>
-
-  <button type="button" name="button"> Get Started</button>
-      </div>
-
-  <div class="header-img">
-    .<div class="image-desktop">
-
-    </div>
+:root{
 
 
 
-    <picture>
+}
 
-                    <source media="(min-width:900px)" srcset="./assets/image-hero-desktop@2x.webp">
-              <source media="(min-width:700px)" srcset="./assets/image-hero-tablet.webp">
+html {
+    font-size:62.5%;
+}
 
-      <img src="./assets/image-hero-mobile.webp" alt="Flowers" style="width:auto;">
-    </picture>
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
 
-
-
-
-  </div>
-  </header>
-  <main>
-<div class="main-wrapper">
-
-
-<div class="popular-courses">
-  <h2><strong>Check out our most popular courses!  </strong>  </h2>
-</div>
-
-<div class="animation box">
-
-    <h3>Animation</h3>
-  <p> Learn the latest animation techniques to create stunning motion
-    design and captivate your audience.</p>
-    <a href="#">Get Started</a>
-
-  </div>
-  <div class="design box">
-    <h3>  Design</h3>
-    <p>  Create beautiful, usable interfaces to help shape the future of
-    how the web looks.</p>
-    <a href="#">Get Started</a>
-      </div>
-<div class="photography box">
-    <h3>  Photography</h3>
-    <p>  Explore critical fundamentals like lighting, composition, and focus
-    to capture exceptional photos.</p>
-      <a href="#">Get Started</a>
-  </div>
-<div class="crypto box">
-    <h3>  Crypto</h3>
-    <p>  All you need to know to get started investing in crypto. Go from beginner
-    to advanced with this 54 hour course.</p>
-    <a href="#">Get Started</a>
-      </div>
-<div class="business box">
-    <h3>  Business</h3>
-    <p>  A step-by-step playbook to help you start, scale, and sustain your business
-    without outside investment.</p>
-      <a href="#">Get Started</a>
-        </div>
-
-</div>
-  </main>
-</div>
-  <footer>
-    <div class="footer-container">
+/* .wrapper{
+  max-width:375px;
 
 
-    <div class="logo">
+} */
 
-
-    <img src="./assets/logo-light.svg" alt="">
-      </div>
-  <button type="button" name="button" class="footer-cta"> Get Started</button>
-    </div>
-  </footer>
+img{
+  max-width:100%;
+}
 
 
 
+.container {
+padding:0 2rem;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+
+}
+nav,footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3em 0;
+}
+
+nav button {
+  background: #13183f;
+  border-radius: 2rem;
+  color: #fff;
+
+  padding: 0.5rem 2rem;
+}
+
+header h1 {
+  font-size:4rem;
+    color:#13183F;
+    font-feature-settings:
+}
+
+header p {
+  font-size:1.6rem;
+  line-height: 2.6rem;
+  padding: 2.9rem 0;
+}
+
+
+header button {
+
+  background: linear-gradient(to bottom,#ff6f48, #f02AA6);
+  padding: 1rem 3rem;
+  border-radius: 5rem;
+  color: #fff;
+  border:none;
+}
+
+.popular-courses{
+    background: linear-gradient(to bottom,#ff6f48, #f02AA6);
+
+    padding: 3rem;
+    border-radius: 2rem;
+color:#fff;
+    margin-bottom: 2rem;
+
+}
+.popular-courses h2{
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+}
+.box{
+  position:relative;
+      padding: 5rem 0;
+
+box-shadow: 0px 2.5rem 5rem 0px rgba(6, 22, 141, 0.04);
+background:#fff;
+}
+
+.box h3 {
+  font-size:2rem;
+  line-height:2.52rem;
+    padding: 3.2rem 0;
+
+}
+
+.box p {
+  font-size:1.6rem;
+  line-height:2.6rem;
+    padding: 1rem 0;
+    color:#83869a;
+}
+
+.animation:before{
+  content:"";
+
+  background-image:url('./assets/icon-animation.svg');
+
+  width: 5.6rem;
+  height: 5.6rem;
+
+  background-size:cover;
+  position:absolute;
+  top: 0;
+}
 
 
 
 
-  </div>
+.design:before{
+  content:"";
+
+  background-image:url('./assets/icon-design.svg');
+
+  width: 5.6rem;
+  height: 5.6rem;
+  background-size:cover;
+  position:absolute;
+  top: 0;
+}
+
+.photography:before{
+  content:"";
+
+  background-image:url('./assets/icon-photography.svg');
+
+  width: 5.6rem;
+  height: 5.6rem;
+  background-size:cover;
+  position:absolute;
+  top: 0;
+}
+
+.crypto:before{
+  content:"";
+
+  background-image:url('./assets/icon-crypto.svg');
+
+  width: 5.6rem;
+  height: 5.6rem;
+  background-size:cover;
+  position:absolute;
+  top: 0;
+}
+
+.business:before{
+  content:"";
+
+  background-image:url('./assets/icon-business.svg');
+
+  width: 5.6rem;
+  height: 5.6rem;
+  background-size:cover;
+  position:absolute;
+  top: 0;
+}
+
+.box a {
+  font-size:1.8rem;
+  line-height:2.8rem;
+  font-weight:700;
+  color:#f74780;
+  text-decoration: none;
+}
+
+.footer-container{
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+
+}
+footer{
+  background:#13183f;
+  display:flex;
 
 
-</body>
-</html>
+}
+
+footer button {
+  background: linear-gradient(to bottom,#4851ff, #f02aa6);
+  padding: 1rem;
+  color: #fff;
+  border-radius: 5rem;
+
+}
+
+@media (min-width:700px){
+
+
+/* .wrapper{
+  max-width:768px;
+} */
+
+.container{
+  background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+}
+
+header{
+  display:flex;
+
+}
+
+/* .section-1 {
+  width:51.8299166%;
+}
+.header-img {
+  flex:1;
+} */
+
+.main-wrapper{
+  display:flex;
+  flex-wrap:wrap;
+
+
+
+}
+
+.main-wrapper div{
+
+}
+
+
+}
+
+@media (min-width:900px){
+
+.wrapper{
+      max-width:1440px;
+      margin:auto;
+}
+  .container{
+overflow:hidden;
+    margin:auto;
+padding-left:16.5rem;
+      padding-right:16.5rem;
+  }
+
+
+nav {
+padding-top:2.9rem;
+    padding-bottom: 178px;
+}
+    nav button {
+        width:16.7rem;
+    height: 5.6rem;
+        padding:0;
+        border-radius:2.8rem;
+        font-size:1.8rem;
+        font-weight:700;
+        line-height:2.8rem;
+    }
+    header h1{
+    font-size:5.6rem;
+        font-weight:800;
+  }
+header{
+        padding-bottom: 21rem;
+}
+
+.section-1 {
+  width: 45.7em;
+}
+
+.section-1 p {
+    padding-right: 4.8rem;
+    color:#83869A;
+}
+
+  header button {
+    font-size:1.8rem;
+    width: 16.7rem;
+height: 6.3rem;
+border-radius: 3.15rem;
+  }
+  .header-img {
+
+    /* left: 40rem; */
+
+  }
+  .box {
+    /* display:flex;
+    flex-direction: column; */
+
+  }
+
+.popular-courses h2{
+  font-size:3.2rem;
+  font-weight:800;
+  line-height:4rem;
+      padding-top: 3.2rem;
+}
+.box h3{
+  font-size:2.4rem;
+  font-weight:800;
+
+}
+.box p {
+  font-size:1.8rem;
+  line-height:2.8rem;
+  padding: 1rem 0 0rem 0;
+
+  }
+
+  .main-wrapper div {
+
+      width:35rem;
+      height: 32.3rem;
+            margin: 0rem 2rem 8rem 0;
+
+  }
+
+  footer button {
+    padding:1rem 3rem;
+    font-size:1.8rem;
+    font-weight:700;
+    line-height:2.8rem;
+    width: 16.7rem;
+height: 5.6rem;
+  }
+
+
+  main{
+    padding-bottom:6rem;
+  }
+
+  .header-img{
+    width: 87rem;
+      position: absolute;
+      right: -19rem;
+      top: -5rem;
+
+
+  }
+
+
+}
